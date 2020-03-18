@@ -23,23 +23,23 @@ namespace GestionarCitas.WebAdmin.Controllers
         public ActionResult Index()
         {
             var listadePacientes = _pacientesBL.ObtenerPaciente();
-            
+
             return View(listadePacientes);
         }
-        
+
         public ActionResult Crear()
         {
             var nuevoPaciente = new Paciente();
             var categorias = _categoriasBL.ObtenerCategorias();
 
-            ViewBag.ListaCategorias = 
+            ViewBag.ListaCategorias =
                 new SelectList(categorias, "Id", "Descripcion");
 
             return View(nuevoPaciente);
         }
 
         [HttpPost]
-        public ActionResult Crear (Paciente paciente, HttpPostedFileBase imagen)
+        public ActionResult Crear(Paciente paciente, HttpPostedFileBase imagen)
         {
             if (ModelState.IsValid)
             {
@@ -60,7 +60,7 @@ namespace GestionarCitas.WebAdmin.Controllers
 
             var categorias = _categoriasBL.ObtenerCategorias();
 
-            ViewBag.CategoriaId = new 
+            ViewBag.CategoriaId = new
                 SelectList(categorias, "Id", "Descripcion");
 
             return View(paciente);

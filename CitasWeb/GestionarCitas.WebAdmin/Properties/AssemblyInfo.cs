@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("GestionarCitas.WebAdmin")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
+[assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyProduct("GestionarCitas.WebAdmin")]
-[assembly: AssemblyCopyright("Copyright © HP Inc. 2020")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID es para el Id. typelib cuando este proyecto esté expuesto a COM
-[assembly: Guid("79d3a4c5-d9f1-4975-8792-62e64d4edac9")]
+[assembly: Guid("b013880b-6751-4f99-81a5-b52677a49b18")]
 
 // La información de versión de un ensamblado consta de los siguientes cuatro valores:
 //

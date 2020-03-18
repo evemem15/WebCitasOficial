@@ -31,7 +31,7 @@ namespace GestionarCitas.WebAdmin.Controllers
         }
 
         [HttpPost]
-            public ActionResult Crear(Categoria categoria)
+        public ActionResult Crear(Categoria categoria)
         {
             if (ModelState.IsValid)
             {

@@ -65,7 +65,7 @@ namespace GestionarCitas.WebAdmin.Controllers
 
             ViewBag.PacienteId = new SelectList(pacientes, "Id", "Nombre", cita.PacienteId);
 
-                return View(cita);
+            return View(cita);
         }
 
         [HttpPost]
